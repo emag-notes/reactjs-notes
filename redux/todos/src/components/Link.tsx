@@ -1,0 +1,27 @@
+import * as React from 'react';
+
+interface Props {
+  active: boolean;
+  children: any;
+  onClick: () => void;
+}
+
+const Link = ({active, children, onClick}: Props) => {
+  if (active) {
+    return <span>{children}</span>;
+  }
+
+  return (
+    <a
+      href="#"
+      onClick={e => {
+        e.preventDefault();
+        onClick();
+      }}
+    >
+      {children}
+    </a>
+  );
+};
+
+export default Link;
