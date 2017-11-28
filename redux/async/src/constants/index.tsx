@@ -1,0 +1,11 @@
+export const REQUEST_POSTS = 'REQUEST_POSTS';
+export type REQUEST_POSTS = typeof REQUEST_POSTS;
+
+export const RECEIVE_POSTS = 'RECEIVE_POSTS';
+export type RECEIVE_POSTS = typeof RECEIVE_POSTS;
+
+export const SELECT_REDDIT = 'SELECT_REDDIT';
+export type SELECT_REDDIT = typeof SELECT_REDDIT;
+
+export const INVALIDATE_REDDIT = 'INVALIDATE_REDDIT';
+export type INVALIDATE_REDDIT = typeof INVALIDATE_REDDIT;
