@@ -13,7 +13,7 @@
     "@types/redux-promise": "^0.5.28",
     "axios": "^0.17.1",
     "bootstrap": "^3.3.7",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.6",
