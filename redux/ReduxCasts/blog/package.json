@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/react-redux": "^5.0.14",
     "@types/redux-promise": "^0.5.28",
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "bootstrap": "^3.3.7",
     "lodash": "^4.17.4",
     "react": "^16.2.0",
